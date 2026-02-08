@@ -2,12 +2,14 @@
 const translations = {
     en: {
         hero: {
-            title: "Cosmic Guidance",
-            subtitle: "Illuminating Your Path Through Ancient Wisdom",
+            title: "Agasthiyar Naadi Jyothisham",
+            subtitle: "Vaishnav Bhawan - Illuminating Your Path Through Ancient Wisdom",
             cta: "Book Consultation"
         },
         about: {
             title: "About the Astrologer",
+            name: "K. Raja, K. Skylap",
+            designation: "Naadi Readers • 4th Generation",
             p1: "With over two decades of dedicated practice in Vedic astrology, I have guided countless individuals through life's most crucial decisions. My journey began under the tutelage of renowned scholars, mastering ancient texts and celestial wisdom.",
             p2: "Every consultation is approached with deep respect for the cosmic forces that shape our destinies. Through precise chart analysis and intuitive guidance, I help you understand your unique path and make informed choices aligned with your true purpose.",
             p3: "My approach combines traditional Vedic techniques with a compassionate understanding of modern challenges, ensuring that ancient wisdom serves your contemporary needs."
@@ -72,24 +74,26 @@ const translations = {
             },
             location: {
                 label: "Location",
-                value: "Kerala, India"
+                value: "Anavathukkal Temple, Bharathiyar Road, MAHE (Kannur), Kerala - 673 310"
             },
             cta: "Your destiny awaits. Let the cosmos guide your decisions.",
             button: "Schedule Consultation"
         },
         footer: {
-            copyright: "© 2024 Cosmic Guidance. All rights reserved.",
+            copyright: "© 2024 Agasthiyar Naadi Jyothisham. All rights reserved.",
             tagline: "Wisdom • Clarity • Transformation"
         }
     },
     ml: {
         hero: {
-            title: "കോസ്മിക് മാർഗദർശനം",
-            subtitle: "പുരാതന ജ്ഞാനത്തിലൂടെ നിങ്ങളുടെ പാത പ്രകാശിപ്പിക്കുന്നു",
+            title: "അഗസ്ത്യർ നാടി ജ്യോതിഷം",
+            subtitle: "വൈഷ്ണവ് ഭവൻ - പുരാതന ജ്ഞാനത്തിലൂടെ നിങ്ങളുടെ പാത പ്രകാശിപ്പിക്കുന്നു",
             cta: "കൺസൾട്ടേഷൻ ബുക്ക് ചെയ്യുക"
         },
         about: {
             title: "ജ്യോതിഷിയെക്കുറിച്ച്",
+            name: "കെ. രാജ, കെ. സ്കൈലാപ്",
+            designation: "നാടി വായനക്കാർ • നാലാം തലമുറ",
             p1: "വൈദിക ജ്യോതിഷത്തിൽ രണ്ട് ദശാബ്ദത്തിലധികം സമർപ്പിത പരിശീലനത്തോടെ, ജീവിതത്തിലെ ഏറ്റവും നിർണായകമായ തീരുമാനങ്ങളിലൂടെ എണ്ണമറ്റ ആളുകളെ ഞാൻ നയിച്ചിട്ടുണ്ട്. പ്രശസ്ത പണ്ഡിതന്മാരുടെ മാർഗനിർദേശത്തിൽ പുരാതന ഗ്രന്ഥങ്ങളും ആകാശ ജ്ഞാനവും പഠിച്ചാണ് എന്റെ യാത്ര ആരംഭിച്ചത്.",
             p2: "നമ്മുടെ വിധികളെ രൂപപ്പെടുത്തുന്ന പ്രപഞ്ച ശക്തികളോടുള്ള ആഴമായ ബഹുമാനത്തോടെയാണ് ഓരോ കൺസൾട്ടേഷനും സമീപിക്കുന്നത്. കൃത്യമായ ചാർട്ട് വിശകലനത്തിലൂടെയും അവബോധജന്യമായ മാർഗനിർദേശത്തിലൂടെയും, നിങ്ങളുടെ യഥാർത്ഥ ലക്ഷ്യവുമായി പൊരുത്തപ്പെടുന്ന തീരുമാനങ്ങൾ എടുക്കാൻ സഹായിക്കുന്നു.",
             p3: "പുരാതന ജ്ഞാനം നിങ്ങളുടെ സമകാലിക ആവശ്യങ്ങൾക്ക് സേവനം ചെയ്യുന്നുവെന്ന് ഉറപ്പാക്കിക്കൊണ്ട്, പരമ്പരാഗത വൈദിക സാങ്കേതികതകളും ആധുനിക വെല്ലുവിളികളെക്കുറിച്ചുള്ള അനുകമ്പയുള്ള ധാരണയും എന്റെ സമീപനം സംയോജിപ്പിക്കുന്നു."
@@ -154,24 +158,26 @@ const translations = {
             },
             location: {
                 label: "സ്ഥലം",
-                value: "കേരളം, ഇന്ത്യ"
+                value: "അനവത്തുക്കൽ ക്ഷേത്രം, ഭാരതീയർ റോഡ്, മാഹി (കണ്ണൂർ), കേരളം - 673 310"
             },
             cta: "നിങ്ങളുടെ വിധി കാത്തിരിക്കുന്നു. പ്രപഞ്ചത്തെ നിങ്ങളുടെ തീരുമാനങ്ങൾക്ക് മാർഗനിർദേശം നൽകാൻ അനുവദിക്കുക.",
             button: "കൺസൾട്ടേഷൻ ഷെഡ്യൂൾ ചെയ്യുക"
         },
         footer: {
-            copyright: "© 2024 കോസ്മിക് മാർഗനിർദേശം. എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം.",
+            copyright: "© 2024 അഗസ്ത്യർ നാടി ജ്യോതിഷം. എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം.",
             tagline: "ജ്ഞാനം • വ്യക്തത • പരിവർത്തനം"
         }
     },
     ta: {
         hero: {
-            title: "அண்ட வழிகாட்டுதல்",
-            subtitle: "பழங்கால ஞானத்தின் மூலம் உங்கள் பாதையை ஒளிரச் செய்கிறது",
+            title: "அகஸ்தியர் நாடி ஜோதிஷம்",
+            subtitle: "வைஷ்ணவ் பவன் - பழங்கால ஞானத்தின் மூலம் உங்கள் பாதையை ஒளிரச் செய்கிறது",
             cta: "ஆலோசனை பதிவு செய்யவும்"
         },
         about: {
             title: "சோதிடரைப் பற்றி",
+            name: "கே. ராஜா, கே. ஸ்கைலாப்",
+            designation: "நாடி வாசகர்கள் • நான்காம் தலைமுறை",
             p1: "இரண்டு தசாப்தங்களுக்கும் மேலான வேத சோதிட நடைமுறையில், வாழ்க்கையின் மிக முக்கியமான முடிவுகள் மூலம் எண்ணற்ற நபர்களை நான் வழிநடத்தியுள்ளேன். புகழ்பெற்ற அறிஞர்களின் வழிகாட்டுதலின் கீழ், பண்டைய நூல்கள் மற்றும் வானசாஸ்திர ஞானத்தில் தேர்ச்சி பெற்று எனது பயணம் தொடங்கியது.",
             p2: "ஒவ்வொரு ஆலோசனையும் நமது விதிகளை வடிவமைக்கும் பிரபஞ்ச சக்திகளுக்கு ஆழ்ந்த மரியாதையுடன் அணுகப்படுகிறது. துல்லியமான விளக்கப்பட பகுப்பாய்வு மற்றும் உள்ளுணர்வு வழிகாட்டுதல் மூலம், உங்கள் உண்மையான நோக்கத்துடன் இணைந்த தகவலறிந்த தேர்வுகளை செய்ய உதவுகிறேன்.",
             p3: "பண்டைய ஞானம் உங்கள் சமகால தேவைகளுக்கு சேவை செய்வதை உறுதி செய்து, பாரம்பரிய வேத நுட்பங்களையும் நவீன சவால்களைப் பற்றிய இரக்கமான புரிதலையும் எனது அணுகுமுறை இணைக்கிறது."
@@ -236,13 +242,13 @@ const translations = {
             },
             location: {
                 label: "இடம்",
-                value: "கேரளா, இந்தியா"
+                value: "அனவத்துக்கல் கோவில், பாரதியார் சாலை, மாஹே (கண்ணூர்), கேரளா - 673 310"
             },
             cta: "உங்கள் விதி காத்திருக்கிறது. பிரபஞ்சம் உங்கள் முடிவுகளை வழிநடத்தட்டும்.",
             button: "ஆலோசனை திட்டமிடுங்கள்"
         },
         footer: {
-            copyright: "© 2024 அண்ட வழிகாட்டுதல். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+            copyright: "© 2024 அகஸ்தியர் நாடி ஜோதிஷம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
             tagline: "ஞானம் • தெளிவு • மாற்றம்"
         }
     }
