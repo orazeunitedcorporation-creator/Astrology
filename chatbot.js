@@ -109,8 +109,8 @@
         /* ===== TOGGLE BUTTON ===== */
         #nadi-chat-toggle {
             position: fixed;
-            bottom: 24px;
-            right: 24px;
+            bottom: 20px;
+            right: 16px;
             width: 62px;
             height: 62px;
             border-radius: 50%;
@@ -196,12 +196,16 @@
             opacity: 1;
             pointer-events: all;
         }
-        @media (max-width: 420px) {
+        @media (max-width: 768px) {
             #nadi-chat-window {
                 width: calc(100vw - 20px);
                 right: 10px;
-                bottom: 90px;
-                max-height: 80vh;
+                bottom: 88px;
+                max-height: 82vh;
+            }
+            #nadi-chat-toggle {
+                bottom: 20px !important;
+                right: 16px !important;
             }
         }
 
