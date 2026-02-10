@@ -67,9 +67,9 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--gold);
 }
 
-h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); }
-h2 { font-size: clamp(2rem, 4vw, 3rem); }
-h3 { font-size: clamp(1.3rem, 3vw, 1.8rem); }
+h1 { font-size: clamp(1.55rem, 5.5vw, 4.5rem); }
+h2 { font-size: clamp(1.4rem, 4vw, 3rem); }
+h3 { font-size: clamp(1.05rem, 3vw, 1.8rem); }
 
 p {
     font-size: clamp(1rem, 2vw, 1.2rem);
@@ -181,6 +181,7 @@ p {
     justify-content: center;
     overflow: hidden;
     text-align: center;
+    padding: 80px 0 60px;
 }
 
 /* Cosmic Animation Background */
@@ -203,6 +204,7 @@ p {
     height: 500px;
     transform: translate(-50%, -50%);
     animation: rotate 120s linear infinite;
+    pointer-events: none;
 }
 
 .zodiac-symbol {
@@ -298,7 +300,9 @@ p {
     z-index: 10;
     max-width: 800px;
     padding: var(--spacing-md);
+    padding-bottom: calc(var(--spacing-md) + 20px);
     animation: fadeInUp 1.2s ease-out;
+    width: 100%;
 }
 
 .hero-title {
@@ -699,11 +703,15 @@ section {
     }
     
     .floating-contact.whatsapp {
-        bottom: 160px;
+        bottom: 140px;
+        right: auto;
+        left: 16px;
     }
     
     .floating-contact.phone {
-        bottom: 100px;
+        bottom: 78px;
+        right: auto;
+        left: 16px;
     }
     
     .floating-contact svg {
@@ -734,7 +742,8 @@ section {
     }
     
     .hero-content {
-        padding: var(--spacing-sm);
+        padding: 16px 12px 40px;
+        max-width: 100%;
     }
     
     .cta-button {
@@ -899,4 +908,130 @@ section {
 /* Mobile responsiveness */
 @media (max-width: 768px) {
 /* (chatbot responsive styles handled in chatbot.js) */
+}
+
+/* ===== MOBILE FIRST FIXES ===== */
+@media (max-width: 768px) {
+
+    /* Hero title — prevent overflow */
+    .hero-title {
+        font-size: clamp(1.4rem, 7vw, 2.8rem) !important;
+        letter-spacing: 0.02em;
+        word-break: break-word;
+        hyphens: auto;
+        line-height: 1.25;
+        padding: 0 8px;
+    }
+
+    .hero-subtitle {
+        font-size: clamp(0.9rem, 3.5vw, 1.3rem) !important;
+        padding: 0 8px;
+    }
+
+    /* Hero padding so content doesn't go behind fixed icons */
+    .hero {
+        padding: 70px 0 100px;
+    }
+
+    .hero-content {
+        padding: 16px 12px 20px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /* Zodiac wheel smaller on mobile */
+    .zodiac-wheel {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .zodiac-symbol {
+        font-size: 1.4rem !important;
+        opacity: 0.25 !important;
+    }
+
+    /* Planets smaller and repositioned away from text */
+    .planet-1 {
+        width: 40px !important;
+        height: 40px !important;
+        top: 8%;
+        left: 5%;
+    }
+
+    .planet-2 {
+        width: 25px !important;
+        height: 25px !important;
+        top: auto;
+        bottom: 8%;
+        right: 8%;
+    }
+
+    .planet-3 {
+        width: 18px !important;
+        height: 18px !important;
+        bottom: 15%;
+        left: 8%;
+    }
+
+    /* ===== FLOATING ICONS — Move to LEFT side, robot stays RIGHT ===== */
+    .floating-contact {
+        width: 48px !important;
+        height: 48px !important;
+        right: auto !important;
+        left: 16px !important;
+    }
+
+    .floating-contact.whatsapp {
+        bottom: 130px !important;
+    }
+
+    .floating-contact.phone {
+        bottom: 72px !important;
+    }
+
+    .floating-contact svg {
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+    /* Robot chatbot toggle stays bottom-right — ensure no overlap */
+    #nadi-chat-toggle {
+        bottom: 20px !important;
+        right: 16px !important;
+    }
+
+    #nadi-chat-window {
+        bottom: 90px !important;
+        right: 10px !important;
+        width: calc(100vw - 20px) !important;
+        max-height: 82vh !important;
+    }
+
+    /* CTA button full width on mobile */
+    .cta-button {
+        width: 90%;
+        max-width: 300px;
+        padding: 14px 24px;
+        font-size: 0.85rem;
+        letter-spacing: 0.08em;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: clamp(1.25rem, 8vw, 2.2rem) !important;
+    }
+
+    .floating-contact {
+        width: 44px !important;
+        height: 44px !important;
+    }
+
+    .floating-contact.whatsapp {
+        bottom: 120px !important;
+    }
+
+    .floating-contact.phone {
+        bottom: 66px !important;
+    }
 }
