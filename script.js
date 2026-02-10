@@ -127,7 +127,7 @@ const translations = {
             button: "Schedule Consultation"
         },
         footer: {
-            copyright: "© 2024 Vaitheeswarankoil Temple Nadi Astrology. All rights reserved.",
+            copyright: "© 2026 Vaitheeswarankoil Temple Nadi Astrology. All rights reserved.",
             tagline: "Wisdom • Clarity • Transformation"
         }
     },
@@ -258,7 +258,7 @@ const translations = {
             button: "കൺസൾട്ടേഷൻ ഷെഡ്യൂൾ ചെയ്യുക"
         },
         footer: {
-            copyright: "© 2024 വൈതീശ്വരൻകോവിൽ ക്ഷേത്ര നാടി ജ്യോതിഷം. എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം.",
+            copyright: "© 2026 വൈതീശ്വരൻകോവിൽ ക്ഷേത്ര നാടി ജ്യോതിഷം. എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം.",
             tagline: "ജ്ഞാനം • വ്യക്തത • പരിവർത്തനം"
         }
     },
@@ -389,7 +389,7 @@ const translations = {
             button: "ஆலோசனை திட்டமிடுங்கள்"
         },
         footer: {
-            copyright: "© 2024 வைத்தீஸ்வரன்கோவில் கோவில் நாடி ஜோதிடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+            copyright: "© 2026 வைத்தீஸ்வரன்கோவில் கோவில் நாடி ஜோதிடம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
             tagline: "ஞானம் • தெளிவு • மாற்றம்"
         }
     }
@@ -620,9 +620,9 @@ window.addEventListener('load', function() {
 // ===== DYNAMIC YEAR IN FOOTER =====
 const currentYear = new Date().getFullYear();
 const footerText = document.querySelector('.footer-content p:first-child');
-if (footerText && currentYear !== 2024) {
-    // Update year dynamically if not 2024
-    footerText.textContent = footerText.textContent.replace('2024', currentYear);
+if (footerText && currentYear !== 2026) {
+    // Update year dynamically if not 2026
+    footerText.textContent = footerText.textContent.replace('2026', currentYear);
 }
 
 // ===== CONSOLE EASTER EGG =====
