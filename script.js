@@ -2,7 +2,7 @@
 const translations = {
     en: {
         hero: {
-            title: "Vaitheeswarankoil Temple Nadi Astrology",
+            title: "Vaitheeswarankoil Nadi Astrology",
             subtitle: "Vaishnav Bhawan - Illuminating Your Path Through Ancient Wisdom",
             cta: "Book Consultation"
         },
