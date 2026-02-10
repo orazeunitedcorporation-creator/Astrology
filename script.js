@@ -8,7 +8,7 @@ const translations = {
         },
         about: {
             title: "About the Astrologer",
-            name: "Jyothisha Rathna Raja Guruji",
+            name: "Jyothisha Rathna K.Raja Guruji",
             designation: "Naadi Readers • 4th Generation",
             p1: "For over two decades, I have been privileged to read the sacred Nadi leaves that reveal the divine blueprints written by Sage Agasthiyar thousands of years ago. As a 4th generation Nadi reader from the renowned Vaitheeswarankoil tradition, I carry forward the ancient wisdom passed down through my lineage.",
             p2: "Each Nadi consultation is a sacred journey where your thumbprint leads us to the precise palm leaf that contains your life's story. Through the cryptic verses inscribed in ancient Tamil, we unveil the past you've lived, the present you're experiencing, and the destined future awaiting you. This isn't prediction based on planetary calculations alone—it's the direct revelation of what the enlightened sages foresaw about your unique soul journey.",
